@@ -21,6 +21,10 @@ h2{
     font-weight: 100;
 }
 
+h5{
+    padding-bottom: 30px;
+}
+
 span {
     background-color: #FF8C00;
     background-color: #FF8C00;
@@ -171,8 +175,15 @@ button{
 
 .row{
     position: relative;
-    justify-content: space-evenly;
+    justify-content:space-between;
 }
+
+.card-body{
+    margin: 10px -90px  0px -7px;
+   
+}
+
+
 .changesFooter{
     background-color: #484848;
     color: #fff;
@@ -194,6 +205,10 @@ button{
         line-height: 1.14285714;
         font-size: 14px;
 
+}
+
+footer{
+    padding-top: 110px;
 }
 
 .social{
